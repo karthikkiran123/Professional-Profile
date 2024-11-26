@@ -354,7 +354,7 @@ nav {
   overflow-y: hidden;
   letter-spacing: 1.1px;
   line-height: 27px;
-  font-family: "Dancing Script", cursive;
+  font-family: "Merriweather", serif;
 }
 
 .p-container p {
@@ -386,7 +386,7 @@ nav {
 /* Typewriter Effect Styling */
 #typewriter-text {
   display: inline-block;
-  font-family: "Dancing Script";
+  font-family: "Merriweather", serif;
   font-size: 1.5rem;
   line-height: 1.8;
   color: #e20c0c;
