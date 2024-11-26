@@ -243,7 +243,24 @@
     
 }
 
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .typewriter-container {
+    padding: 15px 10px; /* Adjust padding for smaller screens */
+    text-align: left; /* Change alignment for better readability */
+  }
 
+  .typewriter-container .typewriter-text {
+    font-size: 1rem; /* Reduce font size */
+    width: 100%; /* Ensure it adapts to container width */
+  }
+
+  /* Add spacing to prevent overlap with next content */
+  .typewriter-container + * {
+    margin-top: 20px; /* Ensure spacing between typewriter and next content */
+  }
+}
+	
 .btn-container{
     width: 90wv;
     display: flex;
