@@ -132,7 +132,6 @@ function spark(event) {
   document.addEventListener("DOMContentLoaded", function () {
     const text = `Hello, I'm Karthik Kiran S, a full-stack developer specializing in Python, Django, Flask, and Streamlit. 
     I build dynamic, user-friendly web applications that focus on performance and seamless user experience. 
-    With expertise in both back-end and front-end development, I deliver high-quality, scalable solutions that meet real-world needs. 
     I believe in creating not just functional, but also visually engaging applications. Collaboration and continuous learning drive my work—ensuring innovative and reliable results. 
     
     If you're looking for a passionate developer to bring your ideas to life, let's connect and create something impactful!`;
