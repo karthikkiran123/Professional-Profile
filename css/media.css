@@ -238,26 +238,12 @@
     text-align: justify;
     width: 90VW;
     font-size: 14px;
-    line-height :27px;   
+    line-height :27px;
+    
+    
 }
 
-.typewriter-container {
-    padding: 15px 10px; /* Adjust padding for smaller screens */
-    text-align: left; /* Change alignment for better readability */
-  }
 
-  .typewriter-container .typewriter-text {
-    font-size: 1rem; /* Reduce font size */
-    width: 100%; /* Ensure it adapts to container width */
-  }
-
-  /* Add spacing to prevent overlap with next content */
-  .typewriter-container + * {
-    margin-top: 20px; /* Ensure spacing between typewriter and next content */
-  }
-}
-
-	
 .btn-container{
     width: 90wv;
     display: flex;
@@ -495,37 +481,7 @@
     /* animation: bounce 2s infinite; */
     /* animation-delay: 1; */
 }
-.footer-socials a:nth-child(1):hover {
-  background-color: #3b5998;
-  color: white;
-  border-color: #3b5998;
-}
-.footer-socials a:nth-child(2):hover {
-  background-color: #000000;
-  color: white;
-  border-color: #000000;
-}
-.footer-socials a:nth-child(3):hover {
-  background-color: #25d366;
-  color: white;
-  border-color: #25d366;
-}
-.footer-socials a:nth-child(4):hover {
-  background-color: #ff00cc;
-  color: black;
-  border-color: #ff00bf;
-}
-.footer-socials a:nth-child(5):hover {
-  background-color: #212324;
-  color: white;
-  border-color: white;
-}
 
-.footer-socials a:nth-child(6):hover {
-  background-color: #171515;
-  color: white;
-  border-color: white;
-}
 audio{
     opacity: .2;
     height: 10px;
