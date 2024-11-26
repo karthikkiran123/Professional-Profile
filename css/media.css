@@ -205,11 +205,12 @@
 
 .about{
     padding-top:20px;
-    /* height: 80vh; */
+    margin-bottom: 150px; /* Space below the container */
     height: auto;
     width: 90vw;
     display: flex;
     flex-direction: column
+	
 }
 .img-container{
     display: none;
