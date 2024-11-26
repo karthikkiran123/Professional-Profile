@@ -258,6 +258,7 @@
   /* Add spacing to prevent overlap with next content */
   .typewriter-container + * {
     margin-top: 20px; /* Ensure spacing between typewriter and next content */
+	      margin-bottom: 20px; /* Add spacing after the typewriter effect */
   }
 }
 	
