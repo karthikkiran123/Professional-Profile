@@ -231,7 +231,7 @@
     align-items: flex-start; /* Align items at the start */
     flex-wrap: wrap; /* Allow wrapping for smaller screens */
     height: auto; /* Automatically adjust height */
-    margin-bottom: 100px; /* Space below the container */
+    margin-bottom: 150px; /* Space below the container */
     letter-spacing: 0; /* Remove additional letter spacing */
     box-sizing: border-box; /* Ensure padding/borders don't affect width */
 }
