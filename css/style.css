@@ -813,55 +813,37 @@ footer {
 .footer-socials a:hover {
   transform: translateY(-10px);
 }
+
 .footer-socials a:nth-child(1):hover {
   background-color: #3b5998;
   color: white;
   border-color: #3b5998;
 }
 .footer-socials a:nth-child(2):hover {
+  background-color: #000000;
+  color: white;
+  border-color: #000000;
+}
+.footer-socials a:nth-child(3):hover {
   background-color: #25d366;
   color: white;
   border-color: #25d366;
 }
-.footer-socials a:nth-child(3):hover {
-  background-color: #d62976;
-  color: white;
-  border-color: #d62976;
-}
 .footer-socials a:nth-child(4):hover {
+  background-color: #ff00cc;
+  color: black;
+  border-color: #ff00bf;
+}
+.footer-socials a:nth-child(5):hover {
   background-color: #212324;
   color: white;
   border-color: white;
 }
-.footer-socials a:nth-child(5):hover {
-  background-color: #fffc00;
-  color: black;
-  border-color: #fffc00;
-}
+
 .footer-socials a:nth-child(6):hover {
-  background-color: #0a66c2;
-  color: white;
-  border-color: #0a66c2;
-}
-.footer-socials a:nth-child(7):hover {
   background-color: #171515;
   color: white;
   border-color: white;
-}
-.footer-socials a:nth-child(8):hover {
-  background-color: #c8232c;
-  color: white;
-  border-color: #c8232c;
-}
-.footer-socials a:nth-child(9):hover {
-  background-color: #171515;
-  color: white;
-  border-color: white;
-}
-.footer-socials a:nth-child(10):hover {
-  background-color: #c4302b;
-  color: white;
-  border-color: #c4302b;
 }
 audio {
   opacity: 1;
