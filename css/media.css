@@ -224,44 +224,72 @@
     
 }
 
+/* Universal container styling */
 .p-container {
     width: 100%;
     display: flex;
-    align-items: flex-start; /* For proper alignment */
-    height: auto; /* Removed invalid max-height: auto */
+    align-items: flex-start; /* Align items at the start */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    height: auto; /* Automatically adjust height */
     margin-bottom: 100px; /* Space below the container */
-    letter-spacing: 0px;
+    letter-spacing: 0; /* Remove additional letter spacing */
+    box-sizing: border-box; /* Ensure padding/borders don't affect width */
 }
 
 .about-container div p {
-    text-align: justify;
-    width: 90vw; /* Corrected the casing */
-    font-size: 14px;
-    line-height: 27px;
-    margin: 0; /* Ensure no extra margin is applied */
-    padding: 0 5%; /* Optional: Add horizontal padding for better readability */
+    text-align: justify; /* Ensure text is justified */
+    width: 90%; /* Set a responsive width */
+    font-size: 14px; /* Set a default font size */
+    line-height: 1.9; /* Adjust line height for readability */
+    margin: 0; /* Remove default margins */
+    padding: 0 5%; /* Add horizontal padding */
+    box-sizing: border-box; /* Consistent width calculations */
 }
 
+/* Responsive Design - Mobile First */
 
-/* Mobile Styles */
+/* Small screens (max-width: 768px) */
 @media (max-width: 768px) {
-  .typewriter-container {
-    padding: 15px 10px; /* Adjust padding for smaller screens */
-    text-align: left; /* Change alignment for better readability */
-  }
+    .p-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center content on smaller screens */
+    }
 
-  .typewriter-container .typewriter-text {
-    font-size: 1rem; /* Reduce font size */
-    width: 100%; /* Ensure it adapts to container width */
-  }
+    .about-container div p {
+        font-size: 13px; /* Slightly reduce font size */
+        line-height: 1.8; /* Adjust line height */
+        width: 100%; /* Take full width */
+        padding: 0 10px; /* Add some padding for small screens */
+    }
 
-  /* Add spacing to prevent overlap with next content */
-  .typewriter-container + * {
-    margin-top: 20px; /* Ensure spacing between typewriter and next content */
-    margin-bottom: 50px; /* Add spacing after the typewriter effect */
-  }
+    .typewriter-container {
+        padding: 15px 10px; /* Add responsive padding */
+        text-align: left; /* Left-align text for better readability */
+    }
+
+    .typewriter-container .typewriter-text {
+        font-size: 1rem; /* Ensure readable font size */
+        width: 100%; /* Full width within its container */
+    }
+
+    /* Ensure spacing around typewriter effect */
+    .typewriter-container + * {
+        margin-top: 20px; /* Add spacing above */
+        margin-bottom: 50px; /* Add spacing below */
+    }
 }
-	
+
+/* Extra Small screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .about-container div p {
+        font-size: 12px; /* Smaller font for very small devices */
+        line-height: 1.7; /* Tighter spacing for readability */
+        padding: 0 8px; /* Reduce padding for smaller screens */
+    }
+}
+
+
+
 .btn-container{
     width: 90wv;
     display: flex;
